@@ -1,4 +1,3 @@
 FROM adoptopenjdk/openjdk8
-COPY app.jar /usr/local
-WORKDIR /usr/local
+WORKDIR /data/jenkins_project/docker
 CMD java -jar app.jar
