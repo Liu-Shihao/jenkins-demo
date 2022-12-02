@@ -2,3 +2,4 @@
 
 
 # Sonar  
+```mvn sonar:sonar```
